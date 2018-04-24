@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, Arial;
+}
+
+/* Start Header */
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    background-color: rgb(235, 93, 93);
+    color: #EEE;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .80em;
+    transition: all 300ms ease;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: #272c31;
+}
+
+/* End Header */
+
+/* Start Sections */
+
+.block {
+    height: 100vh;
+}
+
+h2 {
+    color: rgb(235, 93, 93);
+    text-align: center;
+}
+
+/* End Sections */
